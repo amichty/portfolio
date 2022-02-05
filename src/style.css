@@ -1,13 +1,25 @@
 :root {
   --default-font-family: "Manrope", sans-serif;
-  --primary-color: #dedede;
-  --secondary-color: #a4a4a4b0;
+  --primary-color: #141d18;
+  --secondary-color: #f3bfab;
   --tertiary-color: #a4a4a45c;
-  --footer-color: #dedede;
+  --footer-color: #9b8779;
+}
+
+.navbar-custom {
+  background-color: #dabba5;
+}
+
+.navbar-custom .nav-link {
+  color: black;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #6a7060;
 }
 
 .hero {
-  background-color: black;
+  background-color: #b1bc93;
   padding-bottom: 80px;
 }
 
@@ -16,17 +28,12 @@ h1 {
   font-family: var(--default-font-family);
   font-size: 54pt;
   line-height: 80px;
-  color: var(--secondary-color);
+  color: #b3bb9740;
   margin-top: 20px;
 }
 
-.h1-row {
-  margin-bottom: -30px;
-}
-
-#portrait {
-  display: block;
-  margin: 0 auto;
+#keyboard {
+  float: right;
 }
 
 h2 {
@@ -36,12 +43,14 @@ h2 {
 }
 
 .highlight-text {
-  color: var(--primary-color);
+  color: #5d764c;
 }
 
+.second-block {
+  background-color: var(--primary-color);
+}
 .footer {
-  height: 50px;
-  background-color: var(--footer-color);
+  background-color: #dabba5;
 }
 
 .contact-links {
