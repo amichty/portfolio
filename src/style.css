@@ -1,21 +1,20 @@
 :root {
-  --default-font-family: "Manrope", sans-serif;
-  --primary-color: #141d18;
+  --default-font-family: "Space Mono", monospace;
+  --primary-color: #161d18;
   --secondary-color: #f3bfab;
-  --tertiary-color: #a4a4a45c;
-  --footer-color: #9b8779;
+  --tertiary-color: #f7cfbe;
 }
 
 .navbar-custom {
-  background-color: #dabba5;
+  background-color: var(--tertiary-color);
 }
 
 .navbar-custom .nav-link {
-  color: black;
+  color: var(--primary-color);
 }
 
 .navbar-custom .nav-link:hover {
-  color: #6a7060;
+  color: #e5a999;
 }
 
 .hero {
@@ -23,37 +22,54 @@
   padding-bottom: 80px;
 }
 
-h1 {
-  float: right;
+h1,
+h2,
+h3,
+p,
+.launch-button {
   font-family: var(--default-font-family);
-  font-size: 54pt;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100pt !important;
   line-height: 80px;
-  color: #5d764c;
+  background: -webkit-linear-gradient(
+    rgba(98, 117, 80, 0),
+    rgba(98, 117, 80, 44)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold !important;
+  color: var(--primary-color);
 }
 
 #keyboard {
   float: right;
 }
 
-h2 {
-  font-family: var(--default-font-family);
-  font-size: 16pt !important;
-  color: var(--tertiary-color);
-}
-
-.highlight-text {
-  color: #161d18;
-}
-
 .second-block {
-  background-color: var(--primary-color);
-}
-.footer {
-  background-color: #dabba5;
+  background-color: var(--tertiary-color);
 }
 
-.contact-links {
-  display: block;
-  margin: 0 auto;
+.third-block {
+  background-color: white;
+}
+
+.launch-button {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
 }
