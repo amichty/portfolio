@@ -20,6 +20,7 @@
 
 .navbar-custom .nav-link:hover {
   color: #e5a999;
+  cursor: pointer;
 }
 
 .hero {
@@ -77,6 +78,10 @@ h2 {
 .third-block {
   background-color: white;
 }
+.paragraph {
+  float: left;
+  text-align: justify;
+}
 
 .launch-button {
   background-color: var(--primary-color);
@@ -84,4 +89,21 @@ h2 {
   text-decoration: none;
   padding: 10px;
   border-radius: 8px;
+}
+
+.credit {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-weight: lighter;
+  color: #9d8b81;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #574e49;
+}
+
+.credit a:hover {
+  cursor: pointer;
+  color: black;
 }
