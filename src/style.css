@@ -59,25 +59,15 @@ h2 {
   font-weight: bold !important;
 }
 
-#keyboard {
-  float: right;
+.featured-img {
+  display: block;
+  margin: 0 auto;
 }
 
 #cat {
-  display: block;
-  margin: 0 auto;
   padding-top: 10px;
 }
 
-#weather-app {
-  display: block;
-  margin: 0 auto;
-}
-
-#covers {
-  display: block;
-  margin: 0 auto;
-}
 .second-block {
   background-color: var(--tertiary-color);
 }
@@ -157,10 +147,6 @@ h2 {
 /* Responsive Styling */
 
 @media (max-width: 992px) {
-  #keyboard {
-    display: none;
-  }
-
   .portrait {
     margin-top: 30px;
   }
@@ -181,26 +167,18 @@ h2 {
     padding-bottom: 20px;
   }
 
-  .second-block a {
+  .second-block a,
+  .see-more {
     padding-top: 15px;
   }
   .intro h1 {
     font-size: 34pt !important;
   }
 
-  .hero .col-lg-9 {
-    padding-left: 18px;
-  }
-
-  #keyboard {
-    display: none;
-  }
-
-  #weather-app,
-  #cat,
-  #covers {
+  .featured-img {
     width: 300px;
   }
+
   .icons {
     display: none;
   }
