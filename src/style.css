@@ -96,6 +96,10 @@ a:hover {
   padding: 10px 14px;
 }
 
+.footer-links .github-link {
+  padding: 10px 13px;
+}
+
 .credit {
   font-family: "Space Mono", monospace;
   text-align: center;
