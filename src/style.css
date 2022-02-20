@@ -191,7 +191,7 @@ a:hover {
 }
 
 #weather-image,
-#comingsoon-image {
+#coming-soon-image {
   display: block;
   margin: 0 auto;
 }
@@ -212,7 +212,7 @@ a:hover {
   text-align: center;
 }
 
-.description-text-title {
+.description-text h2 {
   font-size: 32pt;
 }
 
@@ -261,5 +261,40 @@ a:hover {
 
   .credit {
     font-size: 10pt;
+  }
+
+  .about-paragraph {
+    text-align: center;
+  }
+
+  .about-paragraph h2 {
+    font-size: 30pt;
+  }
+
+  #portrait {
+    width: 250px;
+  }
+
+  #weather-image {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  #coming-soon-image {
+    display: none;
+  }
+
+  .description-text h2 {
+    font-size: 20pt;
+  }
+
+  .description-text {
+    text-align: justify;
+  }
+
+  .pets-carousel-col,
+  .dictionary-description-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
