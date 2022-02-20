@@ -36,6 +36,8 @@
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 .launch-button {
   font-family: var(--default-font-family);
@@ -150,7 +152,7 @@ h2 {
 
 /* About Page Styling */
 
-.about-page {
+.about-section {
   background-color: var(--hero-color);
 }
 
@@ -166,6 +168,14 @@ h2 {
 
 .launch-button {
   text-align: center;
+}
+
+.contact-section a {
+  color: var(--hero-color);
+}
+
+.contact-section a:hover {
+  color: var(--secondary-color);
 }
 
 /* Responsive Styling */
