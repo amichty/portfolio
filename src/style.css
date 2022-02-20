@@ -177,6 +177,24 @@ h2 {
 .contact-section a:hover {
   color: var(--secondary-color);
 }
+/* Portfolio Page Styling */
+
+.portfolio-section {
+  background-color: var(--hero-color);
+}
+#portfolio-title {
+  font-size: 44pt !important;
+}
+
+#weather-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-text {
+  display: block;
+  margin: 0 auto;
+}
 
 /* Responsive Styling */
 
