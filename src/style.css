@@ -220,6 +220,20 @@ a:hover {
   font-size: 14pt;
 }
 
+.weather-description-col,
+.pets-description-col,
+.dictionary-description-col {
+  padding-top: 40px;
+}
+
+.dictionary-description-col .description-text {
+  margin-top: 60px;
+}
+
+.pets-description-col .description-text {
+  margin-top: 80px;
+}
+
 /* Responsive */
 
 @media (max-width: 992px) {
@@ -288,13 +302,22 @@ a:hover {
     font-size: 20pt;
   }
 
-  .description-text {
-    text-align: justify;
+  .weather-description-col,
+  .pets-description-col,
+  .dictionary-description-col {
+    padding-top: -20px;
   }
 
-  .pets-carousel-col,
-  .dictionary-description-col {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .dictionary-description-col .description-text {
+    margin-top: -10px;
+  }
+
+  .dictionary-description-col,
+  .pets-description-col {
+    margin-bottom: 20px;
+  }
+
+  .pets-description-col .description-text {
+    margin-top: -30px;
   }
 }
