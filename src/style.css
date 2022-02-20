@@ -106,22 +106,46 @@ h2 {
 .launch-button:hover {
   color: var(--tertiary-color);
 }
+.footer {
+  background-color: black;
+}
+
+.footer-links {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: black;
+  font-size: 24px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--hero-color);
+}
+
+.footer-links .email-link {
+  padding: 10px 12px;
+}
+
+.footer-links .linkedin-link {
+  padding: 10px 14px;
+}
 
 .credit {
   font-family: "Space Mono", monospace;
   text-align: center;
   font-weight: lighter;
-  color: #9d8b81;
+  color: white;
 }
 
 .credit a {
   text-decoration: none;
-  color: #574e49;
+  color: var(--hero-color);
 }
 
 .credit a:hover {
   cursor: pointer;
-  color: black;
+  color: var(--secondary-color);
 }
 
 /* About Page Styling */
@@ -171,7 +195,7 @@ h2 {
   .see-more {
     padding-top: 15px;
   }
-  .intro h1 {
+  .hero h1 {
     font-size: 34pt !important;
   }
 
